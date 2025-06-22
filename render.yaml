@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: train-brain-and-body
+    env: python
+    startCommand: "python app.py"
